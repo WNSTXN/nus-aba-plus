@@ -1,6 +1,6 @@
 # nus-aba-plus
 
-Browser extension for NUS's admission portal. Supports both Chrome and Firefox.
+Browser extension for NUS's admission portal. Supports both Chromium and Firefox.
 
 ## Features
 
