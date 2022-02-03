@@ -18,7 +18,3 @@ observer.observe(document, {
     attributeOldValue: true,
     characterDataOldValue: true
 })
-
-setInterval(() => {
-    location.reload()
-}, 900000)
