@@ -3,7 +3,7 @@
 
     "name": "NUS ABA PLUS",
     "version": "0.1.0",
-    "description": "Modify the NUS ABA page",
+    "description": "A browser extension for NUS's aptitude-based admissions application portal.",
 
     "content_scripts": [
         {
