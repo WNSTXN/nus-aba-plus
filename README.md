@@ -1,6 +1,6 @@
 # nus-aba-plus
 
-Browser extension for NUS's admission portal. Supports both Chromium and Firefox.
+Browser extension for National University of Singapore's aptitude-based admissions application portal. Supports both Chromium and Firefox.
 
 ## Features
 
