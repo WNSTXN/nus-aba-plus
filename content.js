@@ -1,9 +1,11 @@
 MutationObserver = window.MutationObserver || window.WebKitMutationObserver
 
 var observer = new MutationObserver(() => {
-    const hidden_elements = document.getElementsByClassName('hidden')
-    hidden_elements[1].classList.remove('hidden')
-    hidden_elements[1].classList.remove('hidden')
+    for (let element of document.getElementsByClassName('hidden')) {
+        if (element.id === '829681c8-0152-c55f-8cd7-065b9125bf04' || element.id === '5deb06ee-6c5e-a776-3dd0-1d8d9cd8b1e5') {
+            element.classList.remove('hidden')
+        }
+    }
 
     const old_max_length = 2000
     const new_max_length = 10000
@@ -13,8 +15,5 @@ var observer = new MutationObserver(() => {
 observer.observe(document, {
     childList: true,
     attributes: true,
-    characterData: true,
-    subtree: true,
-    attributeOldValue: true,
-    characterDataOldValue: true
+    subtree: true
 })
