@@ -1,14 +1,14 @@
 {
-    "manifest_version": 2,
+  "manifest_version": 2,
 
-    "name": "NUS ABA PLUS",
-    "version": "0.1.0",
-    "description": "Modify the NUS ABA page",
+  "name": "NUS ABA PLUS",
+  "version": "0.1.0",
+  "description": "Modify the NUS ABA page",
 
-    "content_scripts": [
-        {
-            "js": ["content.js"],
-            "matches": ["https://bfapps.nus.edu.sg/uas2/*"]
-        }
-    ]
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://bfapps.nus.edu.sg/uas2/*"]
+    }
+  ]
 }
