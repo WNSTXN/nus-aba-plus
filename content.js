@@ -1,7 +1,7 @@
 const old_max_length = 2000
 const new_max_length = 10000
 
-function injection() {
+injection = () => {
   for (let element of document.getElementsByClassName('hidden')) {
     if (
       element.id === '829681c8-0152-c55f-8cd7-065b9125bf04' ||
