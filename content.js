@@ -17,7 +17,7 @@ injection = () => {
 
 MutationObserver = window.MutationObserver || window.WebKitMutationObserver
 
-var observer = new MutationObserver(() => {
+const observer = new MutationObserver(() => {
   setInterval(() => {
     injection()
   }, 500)
